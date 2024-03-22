@@ -1,12 +1,15 @@
-
 import './App.css'
+// Importing Components
+import Header from './components/Header'
+
+// Importing Pages
+
 
 function App() {
 
   return (
     <>
-      <div>Mediator</div>
-      <div>Website</div>
+    <Header />
     </>
   )
 }
