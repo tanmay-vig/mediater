@@ -1,9 +1,19 @@
-import Container from "react-bootstrap/Container";
-export default function Influencers() {
+// InfluencerList.js
+import InfluencerCard from '../components/InfluencerCard';
+import influencerData from '../data/influencerData';
+
+const Influencers = () => {
   return (
-     <Container> 
-         <h1>Influencers</h1>
-        </Container>
-      
-  )
-}
+    <div className="d-flex flex-wrap justify-content-center ">
+      {influencerData.map((influencer, index) => (
+        <InfluencerCard
+          key={index}
+          name={influencer.name}
+          image={influencer.image} 
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Influencers;
