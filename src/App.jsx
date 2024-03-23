@@ -2,6 +2,7 @@ import './App.css'
 import {  Routes, Route } from 'react-router-dom'
 // Importing Components
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 // Importing Pages
 import Home from './pages/Home'
@@ -25,6 +26,7 @@ function App() {
       <Route path="/influencers" element={<Influencers />} />
       <Route path="/creator-tag" element={<CreatorTag />} />
     </Routes>
+    <Footer />
     </>
   )
 }
