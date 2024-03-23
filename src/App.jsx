@@ -11,7 +11,7 @@ import OurWork from './pages/OurWork'
 import Services from './pages/Services'
 import Influencers from './pages/Influencers'
 import CreatorTag from './pages/CreatorTag'
-
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
 
@@ -25,6 +25,7 @@ function App() {
       <Route path="/our-work" element={<OurWork />} />
       <Route path="/influencers" element={<Influencers />} />
       <Route path="/creator-tag" element={<CreatorTag />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
     <Footer />
     </>

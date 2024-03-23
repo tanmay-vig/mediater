@@ -1,0 +1,8 @@
+/* NotFoundPage.css */
+
+.dark-theme {
+    width: 100%; /* Make the container full-width */
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+  }
+  
