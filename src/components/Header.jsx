@@ -42,13 +42,13 @@ export default function Header() {
                         >
                             Home
                         </Nav.Link>
-                        <Nav.Link
+                        {/* <Nav.Link
                             as={Link}
                             to="/our-work"
                             onClick={() => setExpanded(false)}
                         >
                             Our Work
-                        </Nav.Link>
+                        </Nav.Link> */}
                         <Nav.Link
                             as={Link}
                             to="/influencers"
@@ -56,13 +56,13 @@ export default function Header() {
                         >
                             Influencers
                         </Nav.Link>
-                        <Nav.Link
+                        {/* <Nav.Link
                             as={Link}
                             to="/services"
                             onClick={() => setExpanded(false)}
                         >
                             Services
-                        </Nav.Link>
+                        </Nav.Link> */}
                         <Nav.Link
                             as={Link}
                             to="https://medium.com/@mediaterofficial"
@@ -71,13 +71,13 @@ export default function Header() {
                         >
                             Blog
                         </Nav.Link>
-                        <Nav.Link
+                        {/* <Nav.Link
                             as={Link}
                             to="/creator-tag"
                             onClick={() => setExpanded(false)}
                         >
                             Creator Tag
-                        </Nav.Link>
+                        </Nav.Link> */}
                         <Nav.Link
                             as={Link}
                             to="/contact"
