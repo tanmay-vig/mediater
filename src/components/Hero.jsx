@@ -1,10 +1,11 @@
 export default function Hero() {
     return (
         <div className="bg-black text-center pt-5">
-            <h1 className="text-warning fw-bolder">Connecting Brands with Creativity</h1>
+            <h1 className="text-warning fw-bolder fs-1">Connecting Brands with Creativity</h1>
+            <br />
             <h2 className="text-white fw-bold">
-                Welcome to Mediater - Your Gateway to Digital Collaboration!
-            </h2>
+                Welcome to Mediater <br /> Your Gateway to Digital Collaboration!
+            </h2> <br />
             <div className="text-white fw-bold justify-content-center mx-5">
                 At Mediater , we redefine collaboration by seamlessly connecting
                 content creators with businesses,<br /> fostering a dynamic ecosystem
