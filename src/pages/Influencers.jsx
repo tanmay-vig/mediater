@@ -4,7 +4,7 @@ import influencerData from '../data/influencerData';
 
 const Influencers = () => {
   return (
-    <div className="d-flex flex-wrap justify-content-center ">
+    <div className="d-flex flex-wrap justify-content-center bg-dark bg-gradient">
       {influencerData.map((influencer, index) => (
         <InfluencerCard
           key={index}
