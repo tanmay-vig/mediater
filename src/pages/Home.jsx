@@ -1,13 +1,13 @@
 
-import {Container} from 'react-bootstrap'
+import Reviews from '../components/Reviews'
+import Mission from '../components/Mission'
 
 export default function Home() {
   return (
-    <div>
-        <Container>
-            <h1>Home</h1>
-            <p>Home Page Content</p>
-        </Container>
+    <div className='bg-black' data-bs-theme="light">
+        
+      <Mission />
+        <Reviews />
     </div>
   )
 }
