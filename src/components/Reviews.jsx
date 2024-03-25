@@ -3,14 +3,17 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+
 function Reviews() {
     return (
-        <div className="">
+        <div>
             <h2 className="text-white text-overflow text-center">
                 {" "}
                 Don't Just Take Our Word for It: Read the customer's Reviews!
             </h2> <br />
-            <Row xs={1} md={5} className="g-4 justify-content-center">
+            <Row xs={1} md={5} className="g-4 justify-content-center"
+            
+            >
                 {reviewData.map((reviewData, index) => (
                     <Col key={index}>
                         <Card

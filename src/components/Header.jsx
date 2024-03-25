@@ -13,7 +13,7 @@ export default function Header() {
         <Navbar
             expand="lg"
             expanded={expanded}
-            className="bg-body-secondary fs-5 fw-bolder"
+            className="bg-black bg-gradient fs-5 fw-bolder"
             variant="dark"
             data-bs-theme="dark"
         >
